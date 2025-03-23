@@ -11,14 +11,7 @@ import {
 	SignUpButton,
 	UserButton,
 } from "@clerk/nextjs";
-
-const menuItems = [
-	//{ name: "Features", href: "#" },
-	// { name: "Solution", href: "#" },
-	{ name: "Pricing", href: "/pricing" },
-	{ name: "About", href: "/about" },
-	{ name: "FAQ", href: "/faq" },
-];
+import { headerMenuItems } from "./menuItems";
 
 export default function Header() {
 	const [menuState, setMenuState] = useState(false);
@@ -56,7 +49,7 @@ export default function Header() {
 						<div className="bg-background in-data-[state=active]:block lg:in-data-[state=active]:flex mb-6 hidden w-full flex-wrap items-center justify-end space-y-8 rounded-3xl border p-6 shadow-2xl shadow-zinc-300/20 md:flex-nowrap lg:m-0 lg:flex lg:w-fit lg:gap-6 lg:space-y-0 lg:border-transparent lg:bg-transparent lg:p-0 lg:shadow-none dark:shadow-none dark:lg:bg-transparent">
 							<div className="lg:pr-4">
 								<ul className="space-y-6 text-base lg:flex lg:gap-8 lg:space-y-0 lg:text-sm">
-									{menuItems.map((item, index) => (
+									{headerMenuItems.map((item, index) => (
 										<li key={index}>
 											<Link
 												href={item.href}
