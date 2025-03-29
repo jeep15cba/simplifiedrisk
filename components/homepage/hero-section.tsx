@@ -22,7 +22,7 @@ export default function HeroSection() {
 					<div className="relative mx-auto max-w-5xl px-6 py-28 lg:py-24">
 						<div className="relative z-10 mx-auto max-w-2xl text-center">
 							<h1 className="text-balance text-4xl font-semibold md:text-5xl lg:text-6xl">
-								Simplifying your Risk Management
+								Modern Software testing reimagined
 							</h1>
 							<p className="mx-auto my-8 max-w-2xl text-xl">
 								Officiis laudantium excepturi ducimus rerum
