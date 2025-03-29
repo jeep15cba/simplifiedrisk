@@ -59,6 +59,14 @@ export default function Header() {
 											</Link>
 										</li>
 									))}
+									<SignedIn>
+										<Link
+											href="/app"
+											className="text-muted-foreground hover:text-accent-foreground block duration-150"
+										>
+											<span>Dashboard</span>
+										</Link>
+									</SignedIn>
 								</ul>
 							</div>
 
