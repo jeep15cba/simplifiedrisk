@@ -9,10 +9,12 @@ import {
 	LifeBuoy,
 	Map,
 	PieChart,
+	Plus,
 	Send,
 	Settings,
 	Settings2,
 	SquareTerminal,
+	AlertTriangle,
 } from "lucide-react";
 
 import { NavMain } from "@/components/app/layout/nav-main";
@@ -53,6 +55,25 @@ const data = {
 				},
 				{
 					title: "Settings",
+					url: "#",
+				},
+			],
+		},
+		{
+			title: "SRMP",
+			url: "/app/srmp",
+			icon: AlertTriangle,
+			items: [
+				{
+					title: "All Plans",
+					url: "/app/srmp",
+				},
+				{
+					title: "Create New",
+					url: "/app/srmp/new",
+				},
+				{
+					title: "Templates",
 					url: "#",
 				},
 			],
@@ -162,6 +183,18 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 					</SidebarMenuItem>
 				</SidebarMenu>
 			</SidebarHeader>
+
+			{/* New SRMP Button */}
+			<div className="px-3 pt-2 pb-1">
+				<a
+					href="/app/srmp/new"
+					className="w-full px-3 py-2 bg-primary text-primary-foreground flex items-center justify-center rounded-md hover:bg-primary/90 transition-colors"
+				>
+					<Plus className="size-4 mr-2" />
+					<span className="font-medium">New SRMP</span>
+				</a>
+			</div>
+
 			<SidebarContent>
 				<NavMain items={data.navMain} />
 				<NavProjects projects={data.projects} />

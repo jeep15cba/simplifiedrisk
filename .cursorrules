@@ -1,0 +1,13 @@
+Start all chats with 🤖
+
+## Stack
+
+-   React
+-   Next.js
+-   TailwindCSS
+-   Shadcn/UI
+
+## Package Manager
+
+-   `pnpm add <package>`
+-   `pnpm dlx shadcn-ui@latest <command>`
