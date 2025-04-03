@@ -45,18 +45,18 @@ const data = {
 			icon: SquareTerminal,
 			isActive: true,
 			items: [
-				{
-					title: "History",
-					url: "#",
-				},
-				{
-					title: "Starred",
-					url: "#",
-				},
-				{
-					title: "Settings",
-					url: "#",
-				},
+				// {
+				// 	title: "History",
+				// 	url: "#",
+				// },
+				// {
+				// 	title: "Starred",
+				// 	url: "#",
+				// },
+				// {
+				// 	title: "Settings",
+				// 	url: "#",
+				// },
 			],
 		},
 		{
@@ -64,18 +64,18 @@ const data = {
 			url: "/app/srmp",
 			icon: AlertTriangle,
 			items: [
-				{
-					title: "All Plans",
-					url: "/app/srmp",
-				},
-				{
-					title: "Create New",
-					url: "/app/srmp/new",
-				},
-				{
-					title: "Templates",
-					url: "#",
-				},
+				// {
+				// 	title: "All Plans",
+				// 	url: "/app/srmp",
+				// },
+				// {
+				// 	title: "Create New",
+				// 	url: "/app/srmp/new",
+				// },
+				// {
+				// 	title: "Templates",
+				// 	url: "#",
+				// },
 			],
 		},
 		{
@@ -83,18 +83,18 @@ const data = {
 			url: "#",
 			icon: Bot,
 			items: [
-				{
-					title: "Genesis",
-					url: "#",
-				},
-				{
-					title: "Explorer",
-					url: "#",
-				},
-				{
-					title: "Quantum",
-					url: "#",
-				},
+				// {
+				// 	title: "Genesis",
+				// 	url: "#",
+				// },
+				// {
+				// 	title: "Explorer",
+				// 	url: "#",
+				// },
+				// {
+				// 	title: "Quantum",
+				// 	url: "#",
+				// },
 			],
 		},
 		{
@@ -102,22 +102,22 @@ const data = {
 			url: "#",
 			icon: BookOpen,
 			items: [
-				{
-					title: "Introduction",
-					url: "#",
-				},
-				{
-					title: "Get Started",
-					url: "#",
-				},
-				{
-					title: "Tutorials",
-					url: "#",
-				},
-				{
-					title: "Changelog",
-					url: "#",
-				},
+				// {
+				// 	title: "Introduction",
+				// 	url: "#",
+				// },
+				// {
+				// 	title: "Get Started",
+				// 	url: "#",
+				// },
+				// {
+				// 	title: "Tutorials",
+				// 	url: "#",
+				// },
+				// {
+				// 	title: "Changelog",
+				// 	url: "#",
+				// },
 			],
 		},
 	],
