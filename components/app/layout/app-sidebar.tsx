@@ -79,6 +79,25 @@ const data = {
 			],
 		},
 		{
+			title: "Task Demo",
+			url: "/app/taskdemo",
+			icon: AlertTriangle,
+			items: [
+				// {
+				// 	title: "All Plans",
+				// 	url: "/app/srmp",
+				// },
+				// {
+				// 	title: "Create New",
+				// 	url: "/app/srmp/new",
+				// },
+				// {
+				// 	title: "Templates",
+				// 	url: "#",
+				// },
+			],
+		},
+		{
 			title: "Models",
 			url: "#",
 			icon: Bot,
